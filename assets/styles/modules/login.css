@@ -1,0 +1,90 @@
+.container {
+    background-color: transparent;
+    padding: 2rem;
+    max-width: 350px;
+    height: 100%;
+}
+
+main h2 {
+    font-weight: 600;
+    margin-bottom: .2rem;
+    position: relative;
+    color: #EDE2C7;
+}
+
+main h2::before {
+    content: "";
+    position: absolute;
+    height: 4px;
+    width: 25px;
+    bottom: 3px;
+    left: 0;
+    border-radius: 8px;
+    background-color: #FA6B6B;
+}
+
+main p {
+    font-weight: 300;
+    font-size: .8rem;
+    color: #BFCBC2;
+    margin-bottom: 2rem;
+}
+
+.input-field {
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: .5rem;
+}
+
+.input-field label {
+    color: #EDE2C7;
+    margin-left: 3px;
+    margin-bottom: .3rem;
+}
+
+.input-field input {
+    outline: none;
+    border: none;
+
+    width: 300px;
+    height: 50px;
+
+    background: #383737;
+
+    border-radius: 10px;
+    padding: 15px;
+
+    color: white;
+}
+
+form input[type="submit"] {
+    margin-top: 1.5rem;
+    width: 300px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #46D269;
+
+    font-weight: 600;
+    font-size: 1rem;
+    color: #343637;
+}
+
+footer {
+    padding: 11px;
+    font-size: .8rem;
+}
+
+footer p {
+    color: #BFCBC2;
+}
+
+footer a {
+    text-decoration: none;
+    margin-left: 10px;
+    color: #46D269;
+}
+
+.to-recover {
+    margin-bottom: 5px;
+}
