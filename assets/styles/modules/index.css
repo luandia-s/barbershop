@@ -1,0 +1,34 @@
+body {
+    background-image: url("./../../images/pexels-nick-demou-1319459.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.text-information {
+    width: 320px;
+    height: 150px;
+}
+
+.text-information h3 {
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-bottom: .2rem;
+    color: #EDE2C7;
+}
+
+.text-information p {
+    font-weight: 400;
+    font-size: 1rem;
+    color: #BFCBC2;
+}
+
+.container a {
+    text-decoration: none;
+    background-color: aliceblue;
+    color: #343637;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+
+
