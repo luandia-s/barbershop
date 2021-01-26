@@ -1,7 +1,7 @@
 .container {
     background-color: transparent;
     padding: 2rem;
-    max-width: 350px;
+    max-width: 400px;
     height: 100%;
 }
 
@@ -47,7 +47,7 @@ main p {
     outline: none;
     border: none;
 
-    width: 300px;
+    width: 320px;
     height: 50px;
 
     background: #383737;
@@ -60,7 +60,7 @@ main p {
 
 form input[type="submit"] {
     margin-top: 1.5rem;
-    width: 300px;
+    width: 320px;
     height: 60px;
     border-radius: 10px;
     background-color: #46D269;
