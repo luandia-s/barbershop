@@ -1,5 +1,6 @@
 .container {
-    background-color: transparent;
+    background-color: rebeccapurple;
+
     padding: 2rem;
     max-width: 400px;
     height: 100%;
@@ -47,7 +48,7 @@ main p {
     outline: none;
     border: none;
 
-    width: 320px;
+    width: 100%;
     height: 50px;
 
     background: #383737;
@@ -60,7 +61,7 @@ main p {
 
 form input[type="submit"] {
     margin-top: 1.5rem;
-    width: 320px;
+    width: 100%;
     height: 60px;
     border-radius: 10px;
     background-color: #46D269;
@@ -68,6 +69,8 @@ form input[type="submit"] {
     font-weight: 600;
     font-size: 1rem;
     color: #343637;
+    outline: none;
+    border: none;
 }
 
 footer {
@@ -81,7 +84,7 @@ footer p {
 
 footer a {
     text-decoration: none;
-    margin-left: 10px;
+    margin-left: 7px;
     color: #46D269;
 }
 
